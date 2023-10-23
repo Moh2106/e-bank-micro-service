@@ -1,0 +1,10 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: billing-service
+
+  config:
+    import: optional:consul:localhost:8500
+
